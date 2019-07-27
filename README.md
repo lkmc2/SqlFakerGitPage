@@ -1,7 +1,22 @@
-# 简介
+# 前言
+
+
+
+## SqlFaker
 
 #### 轻量级、易拓展的数据库智能填充Java开源库
-[![Maven Central](https://img.shields.io/badge/maven--central-v1.0.3-blue.svg)](https://search.maven.org/search?q=g:%22com.github.lkmc2%22%20AND%20a:%22sql-faker%22)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.lkmc2/sql-faker.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.lkmc2%22%20AND%20a:%22sql-faker%22)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+
+Github地址：<https://github.com/lkmc2/SqlFaker>
+
+
+
+## 简介
+
+SqlFaker是一个Java开发的可快速为数据库生成大量仿真的工具，仅需简单的配置，即可为数据库表批量插入有规律的类似真实数据的内容，可用于数据库调优等操作。
 
 
 
@@ -52,7 +67,19 @@ insert into user(name,age,sex,address,birthday) values('任徐',54,'河南省新
 
 ## 更新日志
 
++ v1.0.5：支持一次性插入亿万级别的数据。
++ v1.0.4：添加针对Oracle、Sqlite、H2的FakerCreator，并添加可生成有序数据的Generator类。
 + v1.0.3：添加针对SQL Server的FakerCreator。
 + v1.0.2：添加针对MySQL的FakerCreator。
 + v1.0.1：提高数据插入执行速度。
 + v1.0.0：可一次插入百万级别的仿真数据到数据库中。
+
+
+
+PS：如果有任何建议，可以在Github的Issues中提出，如添加DataType的默认类型等。
+
+
+
+## License
+
+The SqlFaker is released under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).

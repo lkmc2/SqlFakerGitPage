@@ -2,3 +2,7 @@ gitbook init 初始化GitBook新项目
 gitbook serve 在浏览器中启动当前的GitBook项目，地址为：http://localhost:4000
 gitbook pdf 将当前的GitBook生成pdf文件
 gitbook pdf ./ ./mybook.pdf 将当前的GitBook生成pdf文件，并指定生成的文件名
+
+生成新版本内容，并上传服务器
+gitbook build . docs 将所有文件生成在docs文件夹
+git push

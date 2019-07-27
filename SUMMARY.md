@@ -1,27 +1,37 @@
 # 目录
 
 * [前言](README.md)
+* [安装](Install.md)
+* 使用教程
+  * [数据库连接](practice/DatabaseConnect.md)
+  * [数据插入属性介绍](practice/DataInsert/PropertiesIntroduce.md)
+  * [数据插入方式](practice/DataInsert/InsertTypeReadMe.md)
+    * [1.使用DataType枚举](practice/DataInsert/UseDataType.md)
+    * [2.使用 Values.of()系列方法](practice/DataInsert/UseValuesOf.md)
+    * [3.使用 Generator.of()系列方法](practice/DataInsert/UseGeneratorOf.md)
+    * [4.实现RandomData接口](practice/DataInsert/UseRandomData.md)
+  * [反向生成Java文件](practice/FakerCreator.md)
 
-* [MySQL数据库](MySQL/README.md)
+* MySQL数据库
+  * [数据库连接与数据插入](MySQL/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](MySQL/FakerCreator.md)
 
-  * [插入数据](MySQL/插入数据.md)
+* SQL Server数据库
+  * [数据库连接与数据插入](SQLServer/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](SQLServer/FakerCreator.md)
 
-  * [生成数据](MySQL/生成数据.md)
+* Oracle数据库
+  * [数据库连接与数据插入](Oracle/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](Oracle/FakerCreator.md)
 
-  * [生成Java文件](MySQL/生成Java文件.md)
+* Sqlite数据库
+  * [数据库连接与数据插入](Sqlite/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](Sqlite/FakerCreator.md)
 
-* [SQL Server数据库](SQL Server/README.md)
-  * [插入数据](SQL Server/插入数据.md)
+* H2数据库
+  * [数据库连接与数据插入](H2/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](H2/FakerCreator.md)
 
-  * [生成数据](SQL Server/生成数据.md)
-
-  * [生成Java文件](SQL Server/生成Java文件.md)
-
-* [Oracle数据库](Oracle/README.md)
-
-  * [插入数据](Oracle/插入数据.md)
-
-  * [生成数据](Oracle/生成数据.md)
-
-  * [生成Java文件](Oracle/生成Java文件.md)
-
+* 其他数据库
+  * [数据库连接与数据插入](other/DatabaseConnectAndInsert.md)
+  * [反向生成Java文件](other/FakerCreator.md)
